@@ -19,6 +19,13 @@ app.get('/1', (req, res) => {
 app.get('/2', (req, res) => {
   res.render('dientchi')
 })
+app.get('/3', (req, res) => {
+  res.render('tuoi')
+})
+app.get('/4', (req, res) => {
+  res.render('tongso')
+})
+
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
