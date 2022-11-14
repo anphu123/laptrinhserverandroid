@@ -13,12 +13,14 @@
   },
   "author": "",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/anphu123/laptrinhserverandroid/issues"
   },
   "homepage": "https://github.com/anphu123/laptrinhserverandroid#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
     "nodemon": "^2.0.20"
   }
 }
